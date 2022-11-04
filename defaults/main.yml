@@ -6,6 +6,11 @@
 
 openvpn_role: server
 
+openvpn_client_protocol: udp
+openvpn_client_protocol_port: 1194
+openvpn_username: 
+openvpn_password:
+
 # If you are configuring a client, setup these variables:
 # openvpn_role: client
 # openvpn_client_server: vpn.example.com
